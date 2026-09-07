@@ -1,0 +1,1 @@
+"""FastMCP SQL learning server."""

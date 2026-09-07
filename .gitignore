@@ -160,6 +160,12 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+.env
+data/*.db
 
 # Rope project settings
 .ropeproject
