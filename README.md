@@ -86,10 +86,10 @@ Confirm the FastMCP application imports and registers its tools:
 python -c "from mcp_server.server import mcp; print([tool.name for tool in mcp._tool_manager.list_tools()])"
 ```
 
-Start the server over stdio:
+Start the server:
 
 ```powershell
-mcp-sql-server
+python -m mcp_server.server
 ```
 
 ### VS Code launch profiles
