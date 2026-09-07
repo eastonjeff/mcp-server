@@ -92,6 +92,10 @@ Start the server:
 python -m mcp_server.server
 ```
 
+This server uses the MCP `stdio` transport, so it does not have its own URL or
+TCP port. It waits for an MCP client to communicate over standard input and
+output, which makes the terminal appear idle.
+
 ### VS Code launch profiles
 
 The project includes three profiles in `.vscode/launch.json`. Open the
